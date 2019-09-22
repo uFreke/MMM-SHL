@@ -169,11 +169,6 @@ module.exports = NodeHelper.create({
                     icon: "https://www.shl.se/team_graphics/nef_shl/mif1-mif-d39e4/special/30.png",
                     name: "Malmö"
                 };
-            case "MIK":
-                return {
-                    icon: "https://www.shl.se/team_graphics/nef_shl/mik1-mik-82c5d/special/30.png",
-                    name: "Mora"
-                };
             case "OHK":
                 return {
                     icon: "https://www.shl.se/team_graphics/nef_shl/ohk1-ohk-0ab2b/special/30.png",
@@ -189,15 +184,20 @@ module.exports = NodeHelper.create({
                     icon: "https://www.shl.se/team_graphics/nef_shl/saik1-saik-ba23a/special/30.png",
                     name: "Skellefteå"
                 };
-            case "TIK":
-                return {
-                    icon: "https://www.shl.se/team_graphics/nef_shl/tik1-tik-9d6bb/special/30.png",
-                    name: "Timerå"
-                };
             case "VLH":
                 return {
                     icon: "https://www.shl.se/team_graphics/nef_shl/vlh1-vlh-8a4d0/special/30.png",
                     name: "Växjö"
+                };
+            case "IKO":
+                return {
+                    icon: "https://www.shl.se/team_graphics/nef_shl/iko1-iko-891ab/special/30.png",
+                    name: "Oskarshamn"
+                };
+            case "LIF":
+                return {
+                    icon: "https://www.shl.se/team_graphics/nef_shl/lif1-lif-57923/special/30.png",
+                    name: "Leksand"
                 };
             default:
               return null;
